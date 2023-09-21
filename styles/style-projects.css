@@ -1,0 +1,53 @@
+body {
+    background-color: #AFD3E2;
+    font-family: 'Roboto', sans-serif;
+}
+
+p1 {
+    margin-top: 1rem;
+    font-size: 52px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+btn {
+    padding: 6rem;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-style: dashed;
+    border-color: white;
+}
+
+#simon-game{
+    background-image: url("../assets/simon-game.png");
+    background-size: contain;
+    border-style:none;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+@media (max-width:900px) {
+    .flex-container {
+        flex-direction: column;
+        margin-bottom: 0rem;
+    }
+
+    btn{
+        padding: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    p1{
+        margin-bottom: 3rem;
+    }
+}
