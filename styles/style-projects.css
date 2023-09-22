@@ -36,6 +36,10 @@ btn {
     margin-bottom: 5rem;
 }
 
+.mouse-over{
+    scale: 1.2;
+}
+
 @media (max-width:900px) {
     .flex-container {
         flex-direction: column;
