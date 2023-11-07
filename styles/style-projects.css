@@ -29,6 +29,14 @@ btn {
     
 }
 
+#flappy-hacker{
+    background-image: url("../assets/flappy-hacker.png");
+    background-size: cover;
+    background-position: center center;
+    border-style:none;
+
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
