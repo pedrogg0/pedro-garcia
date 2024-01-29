@@ -39,9 +39,33 @@ div {
     font-size: 92px;
 }
 
+.navigation-widget {
+    position: fixed; /* Fijo en la pantalla */
+    top: 50%; 
+    left: 50px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display:  block;
+    transition: transform 0.1s ease;
+  }
+
 .contact-title {
     font-size: 92px;
 }
+
+.dot.activo {
+    transform: scale(1.5); /* Ajusta este valor según lo que prefieras */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
 
 .contact-page {
     font-size: 34px;
