@@ -96,4 +96,13 @@ a:link {
     .projects-page {
         font-size: 32px;
     }
+
+    .navigation-widget {
+        position: fixed; /* Fijo en la pantalla */
+        top: 80%;
+        left: 45%;
+        display: flex;
+        flex-direction: column;
+        scale: 60%;
+    }
 }
