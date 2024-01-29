@@ -62,8 +62,8 @@ div {
 }
 
 .dot.activo {
-    transform: scale(1.5); /* Ajusta este valor según lo que prefieras */
-    transition: transform 0.3s ease; /* Transición suave */
+    transform: scale(1.5); 
+    transition: transform 0.3s ease; 
 }
 
 
@@ -99,10 +99,10 @@ a:link {
 
     .navigation-widget {
         position: fixed; /* Fijo en la pantalla */
-        top: 80%;
-        left: 45%;
+        top: 90%;
+        left: 40%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         scale: 60%;
     }
 }
