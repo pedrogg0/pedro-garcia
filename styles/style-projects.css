@@ -37,6 +37,13 @@ btn {
 
 }
 
+#sort-visualizer{
+    background-image: url("../assets/sort-visualizer.png");
+    background-size: fill;
+    background-position: center center;
+    border-style:none;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;

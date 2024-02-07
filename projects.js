@@ -21,3 +21,16 @@ $("#flappy-hacker").mouseover(function () {
 $("#flappy-hacker").mouseout(function () { 
     $("#flappy-hacker").removeClass("mouse-over");
 });
+
+$("#sort-visualizer").click(function(){
+    open("https://pedrogg0.github.io/sort-visualizer/");
+});
+
+
+$("#sort-visualizer").mouseover(function () { 
+    $("#sort-visualizer").addClass("mouse-over");
+});
+
+$("#sort-visualizer").mouseout(function () { 
+    $("#sort-visualizer").removeClass("mouse-over");
+});
